@@ -1,0 +1,13 @@
+body{
+    background-color: #8a8d7e;
+}
+
+ul li{
+    animation-name: appear;
+    animation-duration: 1s;
+  }
+
+  @keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
